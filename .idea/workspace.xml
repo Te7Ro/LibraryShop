@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7881f96-b58c-42ca-9ecb-4974697c1404" name="Changes" comment="first_hope_last">
+    <list default="true" id="c7881f96-b58c-42ca-9ecb-4974697c1404" name="Changes" comment="second try">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +27,20 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Te7Ro"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cdf9c67e-58af-45bb-b3ba-df79abc7038f" />
+        <option name="url" value="https://github.com/Te7Ro/LibraryShop.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -84,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703083329399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second try">
+      <option name="closed" value="true" />
+      <created>1703084345532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703084345532</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +124,7 @@
     <MESSAGE value="final" />
     <MESSAGE value="git commit -m &quot;Final project&quot;" />
     <MESSAGE value="first_hope_last" />
-    <option name="LAST_COMMIT_MESSAGE" value="first_hope_last" />
+    <MESSAGE value="second try" />
+    <option name="LAST_COMMIT_MESSAGE" value="second try" />
   </component>
 </project>
