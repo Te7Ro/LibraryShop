@@ -43,16 +43,6 @@ public class LibraryController {
         });
     }
     @FXML
-    protected void enterClicked() throws Exception{
-        LibraryApplication.client = new Client(Integer.parseInt(idTextField.getText()), LibraryApplication.connection);
-        setSelectionModel();
-        showBooks(LibraryApplication.connection);
-        showClient(LibraryApplication.client);
-        showMoney(LibraryApplication.client);
-        libraryAnchor.setVisible(true);
-        menuAnchor.setVisible(false);
-    }
-    @FXML
     protected void moneyTextFieldTyped(){
         moneyTextField.textProperty().addListener(new ChangeListener<String>() {
             @Override
@@ -96,6 +86,7 @@ public class LibraryController {
     protected void insertMoneyClicked() throws Exception{
         int money = Integer.parseInt(moneyTextField.getText());
         LibraryApplication.client.insertMoney(money, LibraryApplication.connection);
+        moneyTextField.setText("0");
         showMoney(LibraryApplication.client);
     }
     @FXML
@@ -118,6 +109,16 @@ public class LibraryController {
 
         showMoney(LibraryApplication.client);
         showBooks(LibraryApplication.connection);
+    }
+    @FXML
+    protected void enterClicked() throws Exception{
+        LibraryApplication.client = new Client(Integer.parseInt(idTextField.getText()), LibraryApplication.connection);
+        setSelectionModel();
+        showBooks(LibraryApplication.connection);
+        showClient(LibraryApplication.client);
+        showMoney(LibraryApplication.client);
+        libraryAnchor.setVisible(true);
+        menuAnchor.setVisible(false);
     }
 
 }

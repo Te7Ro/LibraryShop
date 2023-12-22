@@ -11,9 +11,6 @@ public class Basket implements LibraryItem{
     public void addItem(LibraryItem book){
         books.add(book);
     }
-    public void removeItem(LibraryItem book){
-        books.remove(book);
-    }
 
     public boolean getQuantity() {
         boolean result = true;
